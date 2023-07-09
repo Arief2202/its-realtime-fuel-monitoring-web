@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+  }
+  
+.card {
+  /* background-color: #08aeea;
+  background-image: linear-gradient(180deg, #08aeea 0%, #2af598 100%); */
+  color: rgb(34, 34, 34);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+}
+  
+#myBar,#myBar2,#myBar3 {
+  width: 200px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+.description {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.progressbar__label {
+  color:black;
+  font-size: 2.5rem;
+  transform: translate(-50%, 0) !important;
+}
+
+svg {
+  height: 130px;
+  width: 200px;
+  fill: none;
+  stroke: #54859a;
+  stroke-width: 15;
+  stroke-linecap: round;
+  filter: drop-shadow(-3px -2px 5px rgba(60, 60, 60, 0.647));
+}
+  
